@@ -7,7 +7,7 @@ return array
 }
 }
 
-function whileLoop(n){
+function whileLoop(number){
 while (number > 0) {
   console.log(--number);
 }
