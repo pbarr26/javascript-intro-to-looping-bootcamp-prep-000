@@ -1,4 +1,7 @@
-function forLoop(array)
+function forLoop(array) {
   for (let i = 0; i < 25; i++) {
-  console.log("I am " + i + " strange loop")
+  if(1===i) {array.push("I am " + i + " strange loop")}
+  else {array.push("I am ${i} strange loop")
+}
+return array
 }
